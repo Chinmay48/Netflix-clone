@@ -1,0 +1,384 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Martel Sans';
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(images/image1.jpg);
+    height: 80vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: max(1200px,100vw);
+    
+}
+ .box1{
+    height:100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.74;
+    position: absolute;
+    top:0;
+}
+nav img{
+    height: 10vh;
+    width: 20vh;
+    position: relative;
+    z-index: 10;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    align-items: center;
+    margin: auto;
+    height: 62px;
+}
+.bt2{
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    padding: 8px;
+    font-weight: bold;
+    border: none;
+    margin: 10px;
+    position: relative;
+    z-index: 10;
+}
+.bt1{
+    border: 2px solid white;
+    border-radius: 6px;
+    opacity: 0.44;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: black;
+    color: white;
+
+height: 44px;
+position: relative;
+z-index: 1;
+}
+.bt1 div{
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 6px;
+}
+.box2{
+    font-family: 'Martel Sans';
+    display: flex;
+    z-index: 10;
+    flex-direction: column;
+    color: white;
+    height:73vh;
+filter: brightness(100%);
+justify-content: center;
+align-items: center;
+gap: 10px;
+padding: 0 30px;
+}
+.item1{
+    font-size: 41px;
+    font-weight: 1000;
+    text-align: center;
+}
+.item2{
+    font-size: 20px;
+    text-align: center;
+}
+.item3{
+    font-size: 20px;
+    text-align: center;
+}
+.item4 input{
+    padding: 20px;
+    width: 354px;
+    margin-right: 8px;
+    opacity: 0.7;
+    border: 1px solid white;
+    border-radius: 4px;
+    z-index: 10;
+    position: relative;
+    background-color: black;
+    filter: brightness(100%);
+    font-size: 15px;
+    color: white;
+
+    
+}
+.item4 button{
+    background-color: red;
+    color: white;
+    font-size: 22px;
+    padding: 15px;
+    font-weight: 580;
+    padding-left: 34px;
+    padding-right: 34px;
+}
+.line1{
+    width: 100%;
+    height: 7px;
+    background-color:#282525;
+    opacity: 0.8;
+    margin: 0;
+    padding: 0;
+}
+.first{
+    display: flex;
+    height: 70vh;
+    justify-content: space-around;
+    align-items: center;
+    font-family:'Martel Sans';
+    margin: 0 150px;
+}
+
+.first div{
+    color: white;
+    padding: 10px;
+}
+.img1 img{
+    height: 380px;
+    width: 580px;
+    position: relative;
+    z-index: 10;
+}
+.first div .one{
+    font-size: 50px;
+    font-weight: 900;
+}
+.first div .two{
+    font-size: 20px;
+    font-weight: 500;
+}
+.img1 video{
+    position: absolute;
+    right: 250px;
+    bottom: -220px;
+    height: 215px;
+    width: 470px;
+}
+.second{
+    display: flex;
+    height: 65vh;
+    justify-content: center;
+align-items: center;
+font-family:'Martel Sans';
+}
+.a1 img{
+    height: 356px;
+    width: 467px;
+}
+.a2{
+    color: white;
+}
+.txt1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.txt2{
+    font-size: 20px;
+}
+.b1{
+    height: 83px;
+    width: 257px;
+    border: 2px solid white;
+    position: relative;
+    top: 105px;
+    right: 366px;
+    background-color: black;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.b1 img{
+    width: 57px;
+    height: 77px;
+    padding: 5px;
+}
+.c1{
+    font-size: 15px;
+    position: relative;
+    left: -26px;
+    top: 16px;
+    font-weight: bold;
+}
+.c1 p{
+    font-size: 15px;
+    color: blue;
+    
+}
+.third{
+    height:65vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.d1{
+    color: white;
+    position: relative;
+    left: 200px;
+}
+.d2 img{
+    position: relative;
+    height: 350px;
+    width: 560px;
+    left: 230px;
+    z-index: 10;
+}
+.d2 video{
+    position: relative;
+    height: 200px;
+    width: 350px;
+    left: -235px;
+    bottom: 126px;
+}
+.p1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.p2{
+    font-size: 20px;
+}
+.fourth{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 65vh;
+}
+.e1 img{
+    position: relative;
+    width: 500px;
+    height: 420px;
+    left: 104px;
+}
+.e2{
+    color: white;
+    position: relative;
+    right: 100px;
+}
+.x1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.x2{
+    font-size: 20px;
+
+}
+.fifth{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content:normal;
+    align-items: center;
+    gap:20px;
+
+}
+.faq{
+    color: white;
+    background-color:#282525;
+    height: 80px;
+    width: 76vw;
+    position: relative;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.y1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 90px;
+}
+.t1{
+    color: white;
+    margin: 20px;
+    font-size: 20px;
+}
+.sixth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 170px;
+
+}
+.best1 input{
+    background-color: rgb(41, 38, 38);
+    color: white;
+    height: 60px;
+    width: 450px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+}
+.best2 button{
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    font-weight: 850;
+    height: 60px;
+    width: 260px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: none;
+}
+.zero ul li{
+    list-style-type: none;
+    color: white;
+    text-decoration: underline;
+    font-size: 17px;
+}
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 25px 250px;
+}
+.seven p{
+    color: white;
+    position: relative;
+    left:250px;
+}
+.seven{
+    height: 50vh;
+}
+@media screen and (max-width:1370px){
+    .first, .second, .third{
+        flex-wrap: wrap;
+    }
+}
+    @media screen and (max-width:1500px){
+        .fourth{
+            flex-wrap: wrap;
+        }
+    }
+@media screen and (max-width:1500px){
+    .hero{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width:1370px){
+    .img1 video {
+        position: absolute;
+        right: 198px;
+        bottom: -361px;
+        height: 215px;
+        width: 470px;
+    }
+}
+@media screen and (max-width:1370px){
+    .third .d1{
+        left: 36px;
+    }
+}
